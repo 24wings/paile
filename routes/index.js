@@ -26,8 +26,8 @@ var routes = {
 
 exports = module.exports = function(app) {
 
-    app.get('/', routes.views.h5app.index);
-    app.get('/h5app', routes.views.h5app.index);
+    app.get('/', routes.views.index.index);
+    // app.get('/h5app', routes.views.h5app.index);
     // app.get('/h5app/:_id', routes.views.h5app.detail);
     // app.post('/signup', routes.views.signup.post);
     // app.get('/words', routes.views.words.get);

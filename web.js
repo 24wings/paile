@@ -16,7 +16,7 @@ keystone.init({
     'views': 'templates/views',
 
     'auto update': true,
-    'mongo': 'mongodb://120.77.169.182/platform',
+    'mongo': 'mongodb://120.77.169.182/paile',
     'cloudinary config': 'cloudinary://688229757297621:D-7VrFqtn6ayg6ItFNXSm52jcS0@dnf1ydl7w',
     'embedly api key': 'adb1c865a9bc489dad997a5f5bddcd6a',
     'session': true,
