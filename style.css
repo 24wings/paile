@@ -1,0 +1,74 @@
+.navbar-brand {
+    width: 221px;
+    background: url(//www.pantrysbest.com/assets/logo-normal-b1767a34a2e4c88666d91c26c01bdd09.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    text-indent: -9999px;
+    height: 30px;
+    margin: 9px 20px 10px 0;
+    vertical-align: middle;
+}
+
+.middle-nav-li {
+    color: orange;
+    line-height: 50px;
+}
+
+.new {
+    vertical-align: middle;
+    float: left;
+    margin-top: 20px;
+}
+
+.carousel .item img {
+    width: 100%;
+}
+
+.carousel-indicators li {
+    background: #9dc819;
+}
+
+.product-name {
+    color: #249136;
+}
+
+footer {
+    margin: 20px 5px;
+    font-size: 0.8em;
+}
+
+.weibo {
+    vertical-align: middle;
+    text-align: right;
+    line-height: 65px;
+    color: red;
+}
+
+.navbar-header .login-toggle {
+    display: inline-block;
+    font-size: 1.2em;
+    width: 16%;
+    color: #fff;
+    text-align: center;
+    line-height: 50px;
+}
+
+.navbar-header .mobile-brand {
+    width: 64%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.navbar-header .mobile-phone {
+    width: 16%;
+    display: inline-block;
+    color: #fff;
+    font-size: 2em;
+    text-align: center;
+    vertical-align: middle;
+}
+
+body {
+    overflow-x: hidden;
+}

@@ -1,0 +1,22 @@
+{% extends '../layouts/base.html'%} {% block content %}
+
+<div class="container">
+    <div class="panel panel-info">
+        <div class="panel-heading">
+            <h3 class="panel-title text-center">{{app.title}}</h3>
+        </div>
+        <div class="panel-body">
+            <div class="row">
+                {%for image in app.previewImages %}
+                <div class="col-md-3">
+                    <img src="{{image.url}}" alt="" class="img-responsive">
+                </div>
+                {% endfor%}
+            </div>
+            <div class="row">
+                <p> {{app.summary}}</p>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock%}

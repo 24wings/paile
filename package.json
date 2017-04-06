@@ -1,0 +1,32 @@
+{
+  "name": "keystone-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node web"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/24wings/keystone-demo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/24wings/keystone-demo/issues"
+  },
+  "homepage": "https://github.com/24wings/keystone-demo#readme",
+  "dependencies": {
+    "@types/bootstrap": "^3.3.32",
+    "@types/jquery": "^2.0.41",
+    "bootstrap": "^3.3.7",
+    "font-awesome": "^4.7.0",
+    "jade": "^1.11.0",
+    "jquery": "^3.2.1",
+    "keystone": "^4.0.0-beta.5",
+    "less": "^2.7.2",
+    "mustache": "^2.3.0",
+    "swig": "^1.4.2",
+    "underscore": "^1.8.3"
+  }
+}

@@ -1,0 +1,17 @@
+{%extends '../layouts/base.html'%} {% block content %}
+<div class="container">
+    <div class="row">
+        <h4 class="product-name"> <span class="caret caret-right"></span>热门h5小游戏</h4>
+    </div>
+    <div class="row">
+        {% for app in apps %}
+        <div class="col-md-3 col-sm-3  col-xs-4 app">
+            <h4 class="text-center app-title">{{app.title}}</h4>
+            <a href="#"><img src="{{app.previewImages[0].url}}" alt="" class="img-responsive"></a>
+            <img src="{{app.qrcode.url}}" alt="" class="img-responsive qrcode">
+            <p>{{app.summary}}</p>
+        </div>
+        {%endfor %}
+    </div>
+</div>
+{%endblock%}
