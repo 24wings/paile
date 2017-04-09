@@ -26,6 +26,7 @@
     "keystone": "^4.0.0-beta.5",
     "less": "^2.7.2",
     "mustache": "^2.3.0",
+    "qrcode": "^0.8.1",
     "swig": "^1.4.2",
     "underscore": "^1.8.3"
   }

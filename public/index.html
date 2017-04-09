@@ -1,0 +1,9 @@
+<canvas id="canvas"></canvas>
+
+<script src="./qrcode/build/qrcode.min.js"></script>
+<script>
+    qrcodelib.toCanvas(document.getElementById('canvas'), 'weixin://wxpay/bizpayurl?pr=hOgdN5l', function(error) {
+        if (error) console.error(error)
+        console.log('success!');
+    })
+</script>
